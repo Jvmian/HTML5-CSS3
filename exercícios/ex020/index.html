@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo</title>
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div{
+            display: inline-block;
+            background-color: blueviolet;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+            border: 3px solid black; 
+           
+            
+        }
+        div:hover {
+            width: 300px;
+            height: 300px;
+            background-color: blue;
+            text-align: left;
+            box-shadow: 5px 5px 10px black;
+            border-radius: 15px;
+            padding: 15px;
+            
+        }
+        p{
+            display: none;
+        }
+        div:hover > p{
+            display: block;
+            text-align: justify;
+            text-indent: 15px;
+            color: rgb(255, 0, 0);
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <div id="d1" >01
+        <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, necessitatibus perspiciatis ut odio illo unde autem iste blanditiis? Totam voluptatem alias aperiam tempore modi optio accusamus explicabo saepe temporibus at!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus iure veniam tempora, sapiente laboriosam dolore excepturi doloremque ex! Tempora molestias cumque fuga. Nobis doloribus in similique iste dicta officia. Natus.</p>
+    </div>
+    <div id="d2">02<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, necessitatibus perspiciatis ut odio illo unde autem iste blanditiis? Totam voluptatem alias aperiam tempore modi optio accusamus explicabo saepe temporibus at!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus iure veniam tempora, sapiente laboriosam dolore excepturi doloremque ex! Tempora molestias cumque fuga. Nobis doloribus in similique iste dicta officia. Natus.</p></div>
+    <div id="d3">03<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, necessitatibus perspiciatis ut odio illo unde autem iste blanditiis? Totam voluptatem alias aperiam tempore modi optio accusamus explicabo saepe temporibus at!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus iure veniam tempora, sapiente laboriosam dolore excepturi doloremque ex! Tempora molestias cumque fuga. Nobis doloribus in similique iste dicta officia. Natus.</p></div>
+    
+</body>
+</html>

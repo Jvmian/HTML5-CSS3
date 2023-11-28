@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens em HTML 5</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Tente abrir essas imagens em varios dispositivos diferentes  ou simplismente diminua e aumente no seu navegador
+    </p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto.p.jpg" type="image/jpg">
+        <source media="(max-width:1050px )" srcset="imagens/foto.m.jpg" type="image/jpg">
+        <img src="imagens/foto.g.jpg" alt="Foto grande flexivel">
+    </picture>
+    <h1>Reproduzindo áudio no seu site</h1>
+    <p>Reproduzindo audio no HTML5 </p>
+    <audio src="midia/Body of Water - TrackTribe.mp3" controls autoplay></audio>
+    <p> MP3 WAV OGG</p>
+    <audio controls autoplay preload="metadata" loop >
+        <source src="midia/Body of Water - TrackTribe.mp3" type="audio/mpeg">
+        <p>Infelizmente o audio nao esta funcionando no seu navegador <a href="midia/Body of Water - TrackTribe.mp3">clique aqui para baixar o audio</a></p>
+    </audio>
+    
+</body>
+</html>

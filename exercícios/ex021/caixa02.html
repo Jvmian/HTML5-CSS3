@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(46, 0, 153);
+            margin: 0%;
+        }
+        nav{
+            background-color: black;
+            border-radius: 10px;
+            padding: 5px;
+            
+        }
+        h1{
+            box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.363); 
+            padding: 5px;
+            border-radius: 10px;
+        }
+        nav > a{
+            color: crimson;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 20px;
+            padding: 5px;
+            
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        header{
+            background-color: blue;
+            margin: 10px;
+            color: crimson;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 5px black;
+        }
+        main{
+            background-color: rgb(3, 3, 255);
+            margin: 10px 10px 20px 10px;
+            color: crimson;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 5px black;
+        }
+        article{
+            background-color: rgb(29, 29, 170);
+            padding: 5px;
+        }
+        article > aside{
+            background-color: rgb(3, 3, 109);
+            border-radius: 10px;
+        }
+        article > aside > p {
+            padding: 5px;
+        }
+        footer{
+            color: white;
+            background-color: black;
+            margin: 0%;
+            padding: 6px;
+            text-align: center;
+            box-shadow: 5px 5px 5px 5px black; /* horizonta vertical blush espalhamento cor*/
+        }
+        footer > p {
+            margin: 0%;
+        }
+        #teste{
+            border-radius: 10px;
+            margin-bottom: 10px;
+            box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.616); 
+            
+        }
+        #uii{
+            border-radius: 10px;
+            margin-bottom: 10px;
+            box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.603); 
+        }
+        #bola{
+        height: 200px;
+        width: 200px;
+        background-color: rgb(38, 2, 71);
+        margin: 20px;
+        border-radius: 50%;
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.356);
+        
+
+        }
+    </style>
+</head>
+<body>
+   <header>
+         <h1> titulo</h1>
+             <nav>
+                 <a href="#">link</a>
+                 <a href="#">link</a>
+                 <a href="#">link</a>
+             </nav>
+   </header>
+
+   <main>
+    <section id="assuntos">
+        <article id="uii">
+            <h2>Cu Picanha Xereca</h2>
+        </article>
+    </section>
+    <section id="noticias">
+        <article id="teste">
+            <h2>Mataram joao</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime doloribus nemo aspernatur labore at placeat maiores ea temporibus, a quas fuga nam! Nihil praesentium reprehenderit ducimus voluptas dicta rerum accusantium!</p>
+            <aside>
+                <p>artigo feito por guanabara</p>
+            </aside>
+        </article>
+        
+    </section>
+
+   </main>
+   
+   <footer>
+    <p>Desenvolvido pelo joao</p>
+   </footer>
+   <div id="bola"></div>
+    
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box level</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{ /*box level*/
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: blueviolet;
+            color: rgb(175, 175, 175);
+            width: 500px;
+            height: 45px;
+            text-align: center;
+
+            border-radius: 15px;
+            border: 10px  solid  black;
+
+            padding: 10px;
+
+            margin-top: 20px;
+            margin-right: auto;
+            margin-bottom: 40px;
+            margin-left: auto;
+
+            /* margin: 20px 20px 40px 20px // cima direita baixo esquerda */
+
+            
+            box-shadow: 3px 7px 10px black;
+            
+            outline-width: 4px;
+            outline-color: darkblue;
+            outline-style: dashed;
+            /* tamanho estilo cor*/
+        }
+        a{/*inline level*/
+            padding-top: 0px;
+            padding-bottom: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+            border-width: 10px;
+            border-color: red;
+            border-style: groove;
+        }
+    </style>
+</head>
+<body>
+    <h1>Isso é um exemplo de box level</h1>
+    <p>Isso também é um exemplo. <a href="#">mas os links são exemplos de inline level.</a> Vamos ver como isso funciona</p>
+    
+</body>
+</html>
