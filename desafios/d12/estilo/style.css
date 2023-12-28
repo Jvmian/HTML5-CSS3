@@ -50,17 +50,32 @@ section {
     padding-left: 30px;
     font-family: var(--fonte3)
 }
+section > p {
+    padding-bottom: 2em;
+}
 section.imagem > p{
     display: inline-block;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.664);
     color: white;
+    text-shadow: 1px 1px 0px black;
+}
+#img01{ 
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+#img02{ 
+    background-image: url(../imagens/background002.jpg);
+    background-size: cover;
 }
 section.normal {
     background-color: rgb(206, 206, 206);
 }
 section.imagem {
     background-color: rgb(53, 53, 53);
+    box-shadow: inset 5px 5px 12px rgba(0, 0, 0, 0.452);
+    background-attachment: fixed;
 }
 footer{
     background-color: black;
